@@ -1,0 +1,58 @@
+stop: ['.', '\n']
+tests:
+  en_office:
+    prompt_file: ./en/deck_vocab.txt
+    params:
+      topic: Office
+      description: "Common office supplies, furniture, and equipment"
+    assertions:
+      equalTo: desk, chair, computer, printer, scanner, copier, fax machine, telephone, stapler, paper clip, pen, pencil, marker, eraser, ruler, calculator, file cabinet, binder clip, paper tray, whiteboard
+
+  en_wine:
+    prompt_file: ./en/deck_vocab.txt
+    params:
+      topic: wine making
+      description: types of grapes, fermentation process, aging process, bottling and labeling
+    assertions:
+      equalTo: grapes, fermentation, aging, bottling, labeling, vineyard, barrel, yeast, sugar, tannin, acidity, aroma, flavor, blend, cork, bottle
+
+  es_office:
+    prompt_file: ./es/deck_vocab.txt
+    params:
+      topic: Oficina
+      description: diferentes tipos de equipo de oficina, términos comunes relacionados con la oficina, usos comunes del equipo de oficina
+    assertions:
+      equalTo: computadora, impresora, escáner, fax, teléfono, mensajería electrónica, archivador, carpeta, papelería, lápiz, bolígrafo, tijeras, grapadora, pegamento, cinta adhesiva, libreta de notas, agenda de contactos, calendario de reuniones, presentación de diapositivas
+      
+  es_wine:
+    prompt_file: ./es/deck_vocab.txt
+    params:
+      topic: vinificacción
+      description: proceso de vinificación, términos de vinificación, equipo de vinificación
+    assertions:
+      equalTo: fermentación, maceración, mosto, vino, barricas, botella, destilación, sulfitado, filtrado, clarificación, maduración, uva, vendimia, taninos, acidez, alcohol, aromas
+
+  fr_office:
+    prompt_file: ./fr/deck_vocab.txt
+    params:
+      topic: Travailler dans un bureau
+      description: Des choses qu'on trouve dans un bureau, les tâches courantes, les outils et technologies utilisés dans un bureau
+    assertions:
+      equalTo: bureau, chaise, ordinateur, imprimante, téléphone, fax, photocopieur, classeur, papier, stylo, crayon, règle, gomme, calendrier, agenda, liste de tâches, courriel, messagerie instantanée, logiciel de bureau, tableau blanc
+
+  fr_quotidienne:
+    prompt_file: ./fr/deck_vocab.txt
+    params:
+      topic: ma routine quotidienne
+      description: Les activités quotidiennes, les tâches ménagères, le temps libre et les loisirs
+    assertions:
+      equalTo: travailler, jouer à des jeux vidéo, sortir avec des amis, faire du sport, écrire, faire du shopping, se préparer, cuisiner, lire, se réveiller, petit-déjeuner, nettoyer, regarder la télévision, aller au cinéma, écouter de la musique, étudier, ranger, prendre des vacances
+
+  de_office:
+    prompt_file: ./de/deck_vocab.txt
+    params:
+      topic: Büro
+      description: verschiedene Arten von Büromöbeln, gemeinsame Verwendung von Büromöbeln
+    assertions:
+      equalTo: Schreibtisch, Stuhl, Aktenschrank, Bücherregal, Drucker, Scanner, Kopierer, Telefon, Computer, Monitor, Tastatur, Maus, Whiteboard, Notizblock, Ordner, Hefter, Papierkorb
+      

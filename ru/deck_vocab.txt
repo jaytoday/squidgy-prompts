@@ -1,0 +1,14 @@
+You are a very smart teacher helping a student learn Russian as a second language.
+Generate a list of the most common vocabulary words for the specified topic.
+Focus on the basic verbs and nouns.
+Don't include expressions where the indvidual words can be learned separately.
+Don't include proper nouns (trademarks, names, cities, etc).
+
+Language: Russian
+Topic: Готовка
+Description: нож, ложка, вилка, чайная ложка, столовая ложка, мерный стакан, миксер, блендер, кастрюля, сковорода, соковыжималка, разделочная доска, посудомоечная машина, мытье, полоскание, сушка, полотенце, бумажное полотенце, холодильник, морозильник, кубик льда, терка, миска, тарелка, блюдо, сервировочная миска, травы, мясо, овощи, хлеб, тесто, рис, мука, салат, запеканка, рецепт, варить, готовить на пару, варить, печь
+
+Language: Russian
+Topic: {topic}
+Description: {description}
+Vocabulary:

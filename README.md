@@ -3,8 +3,10 @@ Squidgy Prompts are a collection of prompts from [Squidgies](https://squidgies.a
 to help study languages (with or without the Squidgies app).
 
 They include prompts for:
-* Building flashcard decks
+* Building flashcard "decks":
     * Deck description
+    * Deck lesson outline
+    * Deck lesson text
     * Deck vocabulary
     * "Sentence mining" (phrase generation)
     * Fill in the blank "hint"s for cloze exercises
@@ -34,3 +36,23 @@ Squidgy Prompts is open source. We welcome any/all contributions and ideas. Some
 * Improving prompt quality
 * Addition of personalities to speakers
 * Addition of other prompt types
+
+# Test Suite
+
+The Squidgy Prompts have a test suite using [SquidgyTesty](https://github.com/squidgyai/squidgy-testy).
+
+To install:
+```
+$ pip install git+https://github.com/squidgyai/squidgy-testy
+```
+
+Then to run all the tests:
+```
+$ cd squidgy-prompts
+$ python -m squidgy_testy
+```
+
+You can also run just a single test suite or test:
+```
+python -m squidgy_testy --test-suite test_vocab_conversation --test fr_conversation_start
+```
